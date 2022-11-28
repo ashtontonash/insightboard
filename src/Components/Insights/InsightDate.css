@@ -1,0 +1,25 @@
+.insight-date {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: #7e3e3e;
+    color: white;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .insight-date__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .insight-date__year {
+    font-size: 0.75rem;
+  }
+  
+  .insight-date__day {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }

@@ -1,0 +1,38 @@
+.new-insight {
+    background-color: #7cb4b1;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-insight button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #136d69;
+    background-color: #136d69;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-insight button:hover,
+  .new-insight button:active {
+    background-color: #136d69;
+    border-color: #136d69;
+  }
+  
+  .new-insight button.alternative {
+    color: #023d3b;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-insight button.alternative:hover,
+  .new-insight button.alternative:active {
+    background-color: #ddb3f8;
+  }
